@@ -1,0 +1,192 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* Header */
+header {
+    background-color: #6A5ACD; /* SlateBlue */
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+}
+
+/* Navigation Bar */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #EEE;
+    padding: 0.5rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: #6A5ACD; /* SlateBlue */
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+nav a:hover {
+    color: #483D8B; /* DarkSlateBlue */
+    text-decoration: underline;
+}
+
+/* Section */
+section {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 2rem auto;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #6A5ACD; /* SlateBlue */
+}
+
+section p {
+    line-height: 1.6;
+}
+
+/* Projects */
+.project {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project h3 {
+    margin: 0;
+    color: #333;
+}
+
+.project p {
+    margin: 0.5rem 0;
+    color: #666;
+}
+
+.project a {
+    color: #6A5ACD; /* SlateBlue */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+
+.project:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+footer {
+    background-color: #483D8B; /* DarkSlateBlue */
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+/* Profile Photo */
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 1rem;
+    float: left;
+}
+
+/* About Me Content */
+.about-content {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.about-content p {
+    flex: 1;
+}
+
+/* Gallery Photos */
+.gallery-photo {
+    width: 100%;
+    max-width: 400px;
+    margin: 0.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact Icons */
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.contact-item img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+    object-fit: cover;
+}
+
+.contact-item a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.contact-item a:hover {
+    color: #6A5ACD; /* SlateBlue */
+    text-decoration: underline;
+}
+
+.project {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    text-align: center; /* Center-align content */
+}
+
+.project img.project-image {
+    width: 40%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
