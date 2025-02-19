@@ -1,28 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project 1</title>
+    <title>Project 1 - EcoStream</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+
+        /* Header */
+        header {
+            background-color: #6A5ACD;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        header p {
+            margin-top: 0.5rem;
+            font-size: 1.2rem;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            padding: 1rem;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #6A5ACD;
+            font-weight: 600;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #6A5ACD;
+            color: white;
+        }
+
+        /* Sections */
+        section {
+            padding: 2rem;
+            max-width: 800px;
+            margin: 2rem auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            font-size: 2rem;
+            color: #6A5ACD;
+            margin-bottom: 1rem;
+        }
+
+        section p,
+        section li {
+            line-height: 1.6;
+            text-align: justify;
+        }
+
+        ul {
+            padding-left: 1.5rem;
+        }
+
+        li {
+            margin-bottom: 1rem;
+        }
+
+        /* Gallery */
+        .gallery-photo {
+            width: 100%;
+            max-width: 400px;
+            margin: 1rem auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Footer */
+        footer {
+            background-color: #483D8B;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.9rem;
+        }
+    </style>
 </head>
-<style>
-    /* Menambahkan style khusus untuk teks justify di bagian overview */
-    #overview p {
-        text-align: justify;
-    }
-</style>
-<style>
-    /* Menambahkan style khusus untuk teks justify di bagian overview */
-    #features li {
-        text-align: justify;
-        margin-bottom: 1rem; 
-    }
-</style>
+
 <body>
     <header>
-        <h1>Project 1</h1>
-        <p>Detailed information about Project 1 </p>
+        <h1>Project 1: EcoStream</h1>
+        <p>Innovative Water Management Platform</p>
     </header>
     <nav>
         <a href="index.html">Home</a>
@@ -32,37 +127,24 @@
     </nav>
     <section id="overview">
         <h2>Overview</h2>
-        <p>EcoStream adalah platform inovatif yang dirancang untuk
-            mengoptimalkan pengelolaan air secara berkelanjutan guna
-            mendukung SDG 6.4, yaitu efisiensi penggunaan air lintas
-            sektor. Dengan mengintegrasikan teknologi seperti IoT,
-            blockchain, dan analitik data, EcoStream memungkinkan
-            pemantauan konsumsi air secara real-time, deteksi kebocoran,
-            dan rekomendasi penghematan yang dapat diakses langsung
-            oleh pengguna. Platform ini juga mendorong kolaborasi antara
-            pemerintah, masyarakat, dan sektor swasta untuk mengatasi
-            tantangan keterbatasan sumber daya air, sekaligus
-            meningkatkan kesadaran akan pentingnya efisiensi dan
-            keberlanjutan dalam pengelolaan air</p>
+        <p>EcoStream adalah platform inovatif yang dirancang untuk mengoptimalkan pengelolaan air secara berkelanjutan
+            guna mendukung SDG 6.4, yaitu efisiensi penggunaan air lintas sektor. Dengan mengintegrasikan teknologi
+            seperti IoT, blockchain, dan analitik data, EcoStream memungkinkan pemantauan konsumsi air secara
+            real-time, deteksi kebocoran, dan rekomendasi penghematan yang dapat diakses langsung oleh pengguna.
+            Platform ini juga mendorong kolaborasi antara pemerintah, masyarakat, dan sektor swasta untuk mengatasi
+            tantangan keterbatasan sumber daya air, sekaligus meningkatkan kesadaran akan pentingnya efisiensi dan
+            keberlanjutan dalam pengelolaan air.</p>
     </section>
     <section id="features">
         <h2>Features</h2>
         <ul>
-            <li>Hasil pengujian usability testing pada platform
-                EcoStream menunjukkan bahwa platform ini memiliki
-                potensi tinggi untuk mendukung pengelolaan air secara
-                efisien dan berkelanjutan. 
-            </li>
-            <li>Mayoritas pengguna menyatakan bahwa antarmuka
-                EcoStream intuitif dan mudah digunakan, dengan fitur
-                fitur seperti pemantauan konsumsi air real-time, deteksi
-                kebocoran, dan rekomendasi penghematan yang dapat
-                diakses dengan cepat</li>
-            <li>Secara keseluruhan, platform ini dinilai layak untuk
-                diterapkan secara luas dengan beberapa
-                penyempurnaan untuk meningkatkan pengalaman
-                pengguna dan efektivitasnya dalam mendukung
-                pengelolaan air yang berkelanjutan</li>
+            <li>Hasil pengujian usability testing menunjukkan bahwa EcoStream memiliki potensi tinggi untuk mendukung
+                pengelolaan air secara efisien dan berkelanjutan.</li>
+            <li>Mayoritas pengguna menyatakan bahwa antarmuka EcoStream intuitif dan mudah digunakan, dengan fitur seperti
+                pemantauan konsumsi air real-time, deteksi kebocoran, dan rekomendasi penghematan yang dapat diakses
+                dengan cepat.</li>
+            <li>Platform ini dinilai layak untuk diterapkan secara luas dengan beberapa penyempurnaan untuk meningkatkan
+                pengalaman pengguna dan efektivitasnya dalam mendukung pengelolaan air yang berkelanjutan.</li>
         </ul>
     </section>
     <section id="gallery">
@@ -75,4 +157,5 @@
         <p>© 2024 Muhammad Ikram Ramadhana Friyan. All rights reserved.</p>
     </footer>
 </body>
+
 </html>
