@@ -1,27 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project 2</title>
+    <title>Project 2 - Online Shopping System</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+
+        /* Header */
+        header {
+            background-color: #6A5ACD;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        header p {
+            margin-top: 0.5rem;
+            font-size: 1.2rem;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            padding: 1rem;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #6A5ACD;
+            font-weight: 600;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #6A5ACD;
+            color: white;
+        }
+
+        /* Sections */
+        section {
+            padding: 2rem;
+            max-width: 800px;
+            margin: 2rem auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            font-size: 2rem;
+            color: #6A5ACD;
+            margin-bottom: 1rem;
+        }
+
+        section p,
+        section li {
+            line-height: 1.6;
+            text-align: justify;
+        }
+
+        ul {
+            padding-left: 1.5rem;
+        }
+
+        li {
+            margin-bottom: 1rem;
+        }
+
+        /* Gallery */
+        .gallery-photo {
+            width: 100%;
+            max-width: 400px;
+            margin: 1rem auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Footer */
+        footer {
+            background-color: #483D8B;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: #FFD700;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
-<style>
-    /* Menambahkan style khusus untuk teks justify di bagian overview */
-    #overview p {
-        text-align: justify;
-    }
-</style>
-<style>
-    #features li {
-        text-align: justify;
-        margin-bottom: 1rem; 
-    }
-</style>
+
 <body>
     <header>
-        <h1>Project 2</h1>
-        <p>Detailed information about Project 2</p>
+        <h1>Project 2: Online Shopping System</h1>
+        <p>Simple and Efficient Shopping Platform</p>
     </header>
     <nav>
         <a href="index.html">Home</a>
@@ -31,15 +136,14 @@
     </nav>
     <section id="overview">
         <h2>Overview</h2>
-        <p>Sistem perbelanjaan online berbasis CLI (Command Line Interface) ini dirancang untuk menyediakan pengalaman belanja digital yang sederhana, efisien, dan terstruktur. Dibangun menggunakan bahasa pemrograman Java, sistem ini memungkinkan pengguna untuk berinteraksi melalui antarmuka berbasis teks dengan dua jenis akses utama yaitu sebagai Admin dan Pelanggan. Sistem ini memenuhi berbagai kebutuhan dasar belanja daring, mulai dari pengelolaan barang oleh admin hingga proses transaksi oleh pelanggan, dengan alur kerja yang jelas dan mudah dipahami</p>
+        <p>Sistem perbelanjaan online berbasis CLI (Command Line Interface) ini dirancang untuk menyediakan pengalaman belanja digital yang sederhana, efisien, dan terstruktur. Dibangun menggunakan bahasa pemrograman Java, sistem ini memungkinkan pengguna untuk berinteraksi melalui antarmuka berbasis teks dengan dua jenis akses utama yaitu sebagai Admin dan Pelanggan. Sistem ini memenuhi berbagai kebutuhan dasar belanja daring, mulai dari pengelolaan barang oleh admin hingga proses transaksi oleh pelanggan, dengan alur kerja yang jelas dan mudah dipahami.</p>
     </section>
     <section id="features">
         <h2>Features</h2>
         <ul>
-            <li>Fitur Utama yaitu Login Sistem, Setiap pengguna harus melakukan login terlebih dahulu sebelum dapat menggunakan sistem. Sistem menyediakan dua jenis akun yaitu Admin dan Pelanggan.</li>
-            <li>Fitur Akun Admin, Admin memiliki kendali penuh untuk mengelola barang dan transaksi dalam sistem. Fitur yang disediakan untuk admin adalah Manajemen Barang, Menambahkan Barang, Admin dapat memasukkan data barang baru (nama barang, harga, stok, dan deskripsi). Menghapus Barang, Admin dapat menghapus barang yang tidak lagi dijual. Mengedit Barang, Admin dapat memperbarui informasi barang, seperti harga atau stok. Manajemen Transaksi, Melihat Transaksi, Admin dapat melihat daftar transaksi yang dibuat oleh pelanggan. Menerima Transaksi, Admin dapat menyetujui transaksi pelanggan setelah proses checkout selesai.</li>
-            <li>Fitur Akun Pelanggan, Pelanggan dapat melakukan aktivitas belanja dan menyelesaikan transaksi dengan fitur seperti Melihat List Barang, Pelanggan dapat melihat semua barang yang tersedia, lengkap dengan detail seperti harga dan stok. Keranjang Belanja, Pelanggan dapat menambahkan barang yang ingin dibeli ke dalam keranjang. Pelanggan dapat melihat daftar barang dalam keranjang. Checkout, Pelanggan dapat melakukan checkout barang yang ada di keranjang. Pelanggan dapat memilih metode pembayaran (misalnya transfer bank atau e-wallet). Riwayat Belanja, Setelah transaksi diterima oleh admin, pelanggan dapat melihat riwayat belanja yang mencakup informasi tentang barang, total pembayaran, dan metode pembayaran.
-                </li>
+            <li><b>Login Sistem:</b> Pengguna harus login untuk mengakses sistem, dengan dua jenis akun yaitu Admin dan Pelanggan.</li>
+            <li><b>Akun Admin:</b> Kendali penuh untuk mengelola barang dan transaksi, termasuk menambahkan, menghapus, mengedit barang, serta mengelola transaksi pelanggan.</li>
+            <li><b>Akun Pelanggan:</b> Fitur belanja seperti melihat barang, menambahkan ke keranjang, checkout, dan melihat riwayat belanja.</li>
         </ul>
     </section>
     <section id="gallery">
@@ -49,14 +153,14 @@
     </section>
     <section id="overview">
         <h2>More Info</h2>
-        <p>Sistem perbelanjaan online ini adalah aplikasi berbasis Java yang menggunakan antarmuka berbasis teks (CLI). Sistem ini dirancang untuk memungkinkan pengguna berinteraksi dengan fitur belanja online, baik sebagai pelanggan maupun admin </p>
+        <p>Sistem perbelanjaan online ini adalah aplikasi berbasis Java yang menggunakan antarmuka berbasis teks (CLI). Sistem ini dirancang untuk memungkinkan pengguna berinteraksi dengan fitur belanja online, baik sebagai pelanggan maupun admin.</p>
         <p>View the project on GitHub: 
             <a href="https://github.com/ikramramadhana/Online-Shopping.java.git" target="_blank">GitHub Repository</a>
         </p>
     </section>
-    
     <footer>
-        <p>© 2024 Muhammad Ikram Ramadhana Friyan. All rights reserved.</p>
+        <p>© 2024 Muhammad Ikram Ramadhana Friyan. All rights reserved. | <a href="https://github.com/ikramramadhana">GitHub Profile</a></p>
     </footer>
 </body>
+
 </html>
