@@ -1,75 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Muhammad Ikram Ramadhana Friyan – Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="header-content">
-            <h1>Welcome to My Portfolio</h1>
-            <p>A Passionate Web Developer and UI/UX</p>
+    <header class="top-nav">
+        <div class="container nav-inner">
+            <span class="logo">IKRAM</span>
+            <nav class="nav-links">
+                <a href="#about">ABOUT</a>
+                <a href="#work">WORK</a>
+                <a href="#contact">CONTACT</a>
+                <a href="#work" class="nav-cta">VIEW WORK</a>
+            </nav>
         </div>
     </header>
-    <nav>
-        <a href="#about">About Me</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-    </nav>
+
     <main>
-        <section id="about">
-            <h2>About Me</h2>
-            <div class="about-content">
-                <img src="ikram.jpg" alt="Muhammad Ikram Ramadhana Friyan" class="profile-photo">
-                <p>
-                    Hello! My name is Muhammad Ikram Ramadhana Friyan, and I specialize in Web Development and UI/UX. 
-                    I have a passion for creating UI/UX designs, prototypes, websites, and applications. When I'm not working, I enjoy watching movies and football.
-                </p>
+        <!-- HERO FULLSCREEN -->
+        <section id="hero" class="hero-section">
+            <div class="hero-bg-lines"></div>
+            <div class="hero-inner container">
+                <div class="hero-intro">
+                    <p class="hero-kicker">Portfolio of Muhammad Ikram Ramadhana Friyan</p>
+                    <h1 class="hero-title">I design and build calm, clear digital interfaces.</h1>
+                    <p class="hero-subtitle">
+                        Blending <strong>web development</strong> and <strong>UI/UX</strong> to create products that look
+                        sharp but feel effortless to use.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#work" class="btn primary">See my work</a>
+                        <a href="#contact" class="btn ghost">Let’s talk</a>
+                    </div>
+                </div>
+
+                <div class="hero-center">
+                    <img src="ikram.jpg" alt="Portrait of Muhammad Ikram Ramadhana Friyan" class="hero-photo">
+                </div>
+
+                <div class="hero-bottom-left">
+                    <span class="badge-label">ROLE</span>
+                    <p>Web Developer · Product & UI/UX</p>
+                </div>
+
+                <div class="hero-bottom-right">
+                    <span class="badge-label">CURRENT FOCUS</span>
+                    <p>Clean interfaces for everyday products</p>
+                </div>
             </div>
         </section>
-        <section id="projects">
-            <h2>Projects</h2>
-            <div class="projects-grid">
-                <div class="project">
-                    <img src="project1.png" alt="Project 1" class="project-image">
-                    <h3>EcoStream Monitoring App</h3>
-                    <p>Designed and prototyped using Figma for water monitoring applications.</p>
-                    <a href="project1.html" class="btn">View Project</a>
+
+        <!-- ABOUT / WHAT I DO -->
+        <section id="about" class="container section">
+            <div class="section-header">
+                <h2>About</h2>
+                <p>I design digital products that feel simple, clear, and human.</p>
+            </div>
+            <div class="about-grid">
+                <div>
+                    <h3>Background</h3>
+                    <p>
+                        I enjoy turning messy ideas into clear, friendly experiences on the web.
+                        My work sits between <strong>web development</strong> and <strong>UI/UX design</strong> –
+                        from quick prototypes in Figma to responsive interfaces in code.
+                    </p>
+                    <p>
+                        When I’m not pushing pixels, I’m usually watching movies,
+                        football, or learning from other designers and developers.
+                    </p>
                 </div>
-                <div class="project">
-                    <img src="project2.png" alt="Project 2" class="project-image">
-                    <h3>Online Shopping App</h3>
-                    <p>Developed a Java CLI-based shopping application.</p>
-                    <a href="project2.html" class="btn">View Project</a>
+                <div>
+                    <h3>Skills & tools</h3>
+                    <ul class="tag-list">
+                        <li>HTML & CSS</li>
+                        <li>Responsive Web Design</li>
+                        <li>UI/UX Fundamentals</li>
+                        <li>Figma & Prototyping</li>
+                        <li>Java (CLI apps)</li>
+                    </ul>
                 </div>
             </div>
         </section>
-        <section id="contact">
-            <h2>Contact</h2>
-            <div class="contact-grid">
-                <div class="contact-item">
-                    <img src="gmail.jpg" alt="Email">
-                    <span>ikramramadhana.mirf@gmail</span>
+
+        <!-- WORK / PROJECTS -->
+        <section id="work" class="container section">
+            <div class="section-header">
+                <h2>Selected work</h2>
+                <p>A snapshot of how I think about structure, clarity, and flow.</p>
+            </div>
+
+            <div class="work-list">
+                <article class="work-item work-item-vertical">
+                    <div class="work-media">
+                        <img src="keuangan-dashboard.png" alt="Dashboard Keuangan Mahasiswa" class="work-image">
+                    </div>
+                    <div class="work-text">
+                        <span class="work-pill">2024 · Personal finance app</span>
+                        <h3>Keuangan Mahasiswa</h3>
+                        <p class="work-meta">Web · UI/UX · Frontend</p>
+                        <p>
+                            A web-based finance manager for students. The app lets you
+                            register and log in, add income and expenses with categories,
+                            and see monthly summaries with clear cards and charts.
+                        </p>
+                        <a href="https://keuanganmahasiswa.vercel.app/" class="text-link" target="_blank">Open live site →</a>
+                        <br>
+                        <a href="https://github.com/ikramramadhana/keuangan-mahasiswa" class="text-link" target="_blank">View on GitHub →</a>
+                    </div>
+                </article>
+
+                <article class="work-item">
+                    <div class="work-text">
+                        <span class="work-pill">2024 · Budgeting helper</span>
+                        <h3>Uang Belanja</h3>
+                        <p class="work-meta">Budgeting · Personal project</p>
+                        <p>
+                            A simple budgeting tool to track daily spending. Users can enter
+                            income and expenses, see how much money is left, and build a
+                            basic habit of checking their balance.
+                        </p>
+                        <a href="https://trackeruangbelanja.vercel.app/" class="text-link" target="_blank">Open live site →</a>
+                        <br>
+                        <a href="https://github.com/ikramramadhana/Uangbelanja" class="text-link" target="_blank">View on GitHub →</a>
+                    </div>
+                    <div class="work-media">
+                        <img src="uangbelanja.png" alt="Uang Belanja CLI budgeting app" class="work-image">
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- NOW -->
+        <section class="container section" id="now">
+            <div class="section-header">
+                <h2>Now</h2>
+                <p>A few things I’m currently exploring and learning.</p>
+            </div>
+            <ul class="now-list">
+                <li>Experimenting with cleaner ways to show complex data in UI.</li>
+                <li>Strengthening my Java fundamentals and backend knowledge.</li>
+                <li>Building small weekly UI/UX experiments to improve my eye for detail.</li>
+            </ul>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact" class="container section">
+            <div class="section-header">
+                <h2>Contact</h2>
+                <p>Open to collaborations, internships, and interesting side projects.</p>
+            </div>
+            <div class="contact-layout">
+                <div>
+                    <p>
+                        The fastest way to reach me is by email. If you’d like to
+                        talk about a role, a project, or just say hi, feel free
+                        to send a short message and I’ll get back as soon as I can.
+                    </p>
                 </div>
-                <div class="contact-item">
-                    <img src="phone.jpg" alt="Phone">
-                    <span>+62 821 6771 5788</span>
-                </div>
-                <div class="contact-item">
-                    <img src="instagram.jpg" alt="Instagram">
-                    <a href="https://www.instagram.com/ikramramadhanaa/">@ikramramadhanaa</a>
-                </div>
-                <div class="contact-item">
-                    <img src="linkedIn.jpg" alt="LinkedIn">
-                    <a href="https://www.linkedin.com/in/muhammad-ikram-ramadhana-friyan-08bb80302/" target="_blank">LinkedIn Profile</a>
+                <div class="contact-list">
+                    <div class="contact-row">
+                        <span class="contact-label">Email</span>
+                        <a href="mailto:ikramramadhana.mirf@gmail.com">ikramramadhana.mirf@gmail.com</a>
+                    </div>
+                    <div class="contact-row">
+                        <span class="contact-label">Phone</span>
+                        <a href="tel:+6282167715788">+62 821 6771 5788</a>
+                    </div>
+                    <div class="contact-row">
+                        <span class="contact-label">Instagram</span>
+                        <a href="https://www.instagram.com/ikramramadhanaa/" target="_blank">@ikramramadhanaa</a>
+                    </div>
+                    <div class="contact-row">
+                        <span class="contact-label">LinkedIn</span>
+                        <a href="https://www.linkedin.com/in/muhammad-ikram-ramadhana-friyan-08bb80302/" target="_blank">Profile</a>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
-    <footer>
-        <p>© 2024 Muhammad Ikram Ramadhana Friyan. All rights reserved.</p>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>© 2024 Muhammad Ikram Ramadhana Friyan</p>
+        </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
