@@ -128,6 +128,10 @@ main {
     position: relative;
     display: grid;
     grid-template-columns: minmax(0, 3fr) minmax(0, 2fr);
+    .hero-bottom-left {
+        display: none;
+    }
+
     grid-template-rows: auto 1fr;
     width: 100%;
     height: 100%;
