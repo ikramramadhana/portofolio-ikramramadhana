@@ -554,6 +554,34 @@ main {
     color: #111827;
 }
 
+.edu-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    color: #111827;
+}
+
+.edu-list li {
+    padding: 0.75rem 1rem;
+    border-radius: 14px;
+    background: #f9fafb;
+    border: 1px solid rgba(15, 23, 42, 0.06);
+}
+
+.edu-level {
+    font-weight: 600;
+}
+
+.edu-detail {
+    display: block;
+    font-size: 0.9rem;
+    color: #6b7280;
+    margin-top: 0.25rem;
+}
+
 /* Navbar scroll state */
 .top-nav {
     transition: background-color 0.3s ease, box-shadow 0.3s ease,
