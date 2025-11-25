@@ -660,6 +660,14 @@ main {
         max-width: 100%;
     }
 
+    .hero-bottom-left,
+    .hero-bottom-right {
+        grid-column: 1;
+        grid-row: 2;
+        justify-self: flex-start;
+        margin-top: 1rem;
+    }
+
     .hero-photo {
         width: 190px;
         height: 190px;
