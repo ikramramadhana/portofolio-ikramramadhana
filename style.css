@@ -391,6 +391,10 @@ main {
                 filter 0.4s ease;
 }
 
+.affiliate-image {
+    max-width: 360px;
+}
+
 .text-link {
     position: relative;
     display: inline-block;
@@ -675,6 +679,14 @@ main {
     .hero-photo {
         width: 190px;
         height: 190px;
+    }
+
+    .work-media {
+        justify-content: center;
+    }
+
+    .affiliate-image {
+        max-width: 260px;
     }
 }
 
