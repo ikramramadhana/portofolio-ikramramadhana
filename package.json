@@ -2,5 +2,6 @@
   "name": "portofolio-ikramramadhana",
   "version": "2.0.0",
   "description": "Portfolio Muhammad Ikram Ramadhana Friyan with Gemini AI chat",
+  "type": "module",
   "engines": { "node": ">=18.0.0" }
 }
