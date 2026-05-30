@@ -15,6 +15,7 @@ About Ikram:
   * TabunganNajwaIkram — shared savings tracker
   * DataPengeluaran / DataPengeluaran1 — expense recorder
   * Online-Shopping.java — Java OOP shopping system
+  * InsectIQ (github.com/ikramramadhana/INSECTIQ) — AI insect identification, EfficientNet-B3 + Gemini 2.5 Flash, 92.3% accuracy, built with Python and Gradio
   * AgroSense (github.com/haikalaulia/UTS_ML) — Agro-Environmental Prediction System, team project, Python, Random Forest Tuned (98.7% accuracy, ROC-AUC 0.997), FastAPI backend, Streamlit frontend, 543K row dataset
   * ProjectUASVisiKomputer — Computer Vision final project (UAS, Python)
   * Kelompok1-UASPraktikumViskom — Computer Vision practicum (Python)
