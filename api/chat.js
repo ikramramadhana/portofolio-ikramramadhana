@@ -15,6 +15,7 @@ About Ikram:
   * TabunganNajwaIkram — shared savings tracker
   * DataPengeluaran / DataPengeluaran1 — expense recorder
   * Online-Shopping.java — Java OOP shopping system
+  * DocsIQ (github.com/ikramramadhana/docsiq) — Document Q&A system, upload PDF/TXT/MD and ask questions, powered by Groq API + LLaMA 3.1, TF-IDF embedding, Firestore storage, live at docsiq.vercel.app
   * InsectIQ (github.com/ikramramadhana/INSECTIQ) — AI insect identification, EfficientNet-B3 + Gemini 2.5 Flash, 92.3% accuracy, built with Python and Gradio
   * AgroSense (github.com/haikalaulia/UTS_ML) — Agro-Environmental Prediction System, team project, Python, Random Forest Tuned (98.7% accuracy, ROC-AUC 0.997), FastAPI backend, Streamlit frontend, 543K row dataset
   * ProjectUASVisiKomputer — Computer Vision final project (UAS, Python)
